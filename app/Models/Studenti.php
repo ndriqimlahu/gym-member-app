@@ -13,10 +13,10 @@ class Studenti
 
     public function __construct($id, $fullName, $birthdate, $gender)
     {
-        $this->$id = $id;
-        $this->$fullName = $fullName;
-        $this->$birthdate = $birthdate;
-        $this->$gender = $gender;
+        $this->id = $id;
+        $this->fullName = $fullName;
+        $this->birthdate = $birthdate;
+        $this->gender = $gender;
     }
 
     public function getId() {
