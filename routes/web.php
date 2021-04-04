@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Route::get('/studenti', 'App\Http\Controllers\StudentiController@studenti');
 
-Route::get('/gym',function () {
-    return view('gym-view-member');
+Route::get('/addMember', function () {
+    return view('gym-add-member');
 });
+
+Route::post('/addedMember','App\Http\Controllers\GymMemberController@storeGymMember')->name('addedMember');
