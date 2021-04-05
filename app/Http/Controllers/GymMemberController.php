@@ -23,5 +23,14 @@ class GymMemberController extends Controller
         $gym_members->expire_date = $request->expire_date;
         $gym_members->profile_picture = $request->profile_picture;
         $gym_members->save();
+
+        return redirect()->route('viewMember');
+    }
+
+    public function deleteGymMember($id) {
+        $gym_members = GymMemberModel::find($id);
+        $gym_members->delete();
+
+        return redirect()->route('viewMember');
     }
 }
