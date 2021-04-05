@@ -28,3 +28,5 @@ Route::post('/addedMember','App\Http\Controllers\GymMemberController@storeGymMem
 Route::get('/viewMember', function () {
     return view('gym-view-member');
 })->name('viewMember');
+
+Route::delete('/deleteMember/{id}', 'App\Http\Controllers\GymMemberController@deleteGymMember')->name('deleteGymMember');
