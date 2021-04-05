@@ -1,11 +1,12 @@
 <html>
     <head>
         <title>Gym Add Member</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     </head>
     <body>
         <form method="post" action="{{route('addedMember')}}" enctype="multipart/form-data">
             @csrf
-            <button>View Members</button>
+            <a href="{{route('viewMember')}}">View Members</a>
             <br><br>
             <label>First Name</label>
             <input type="text" name="first_name">
