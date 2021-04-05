@@ -7,6 +7,14 @@ use Illuminate\Http\Request;
 
 class GymMemberController extends Controller
 {
+    public function viewGymMember() {
+        $viewGymMember = new \App\Models\GymMemberModel();
+
+        return view('gym-view-member', [
+            "viewGymMember" => $viewGymMember
+        ]);
+    }
+
     public function storeGymMember(Request $request) {
         $gym_members = new GymMemberModel();
         $gym_members->first_name = $request->first_name;
