@@ -6,7 +6,7 @@
     <body>
         <form method="post" action="{{route('addedMember')}}" enctype="multipart/form-data">
             @csrf
-            <a href="{{route('viewMember')}}">View Members</a>
+            <a class="btn btn-primary" href="{{route('viewMember')}}">View Members</a>
             <br><br>
             <label>First Name</label>
             <input type="text" name="first_name">
