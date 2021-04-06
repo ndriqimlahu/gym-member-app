@@ -1,11 +1,28 @@
 <div class="container">
-    <div class="row card justify-content-center">
-        <table class="table">
+    <div class="row card border-secondary justify-content-center">
+        <table class="table text-center">
             <thead>
                 <tr>
-                    <td>{{$id}}<br>{{$first_name}}<br>{{$last_name}}<br>{{$birth_date}}<br>{{$expire_date}} <br> {{$delete_member}}</td>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Birthdate</th>
+                    <th>Expire Date</th>
+                    <th>Edit Member</th>
+                    <th>Delete Member</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>{{$id}}</td>
+                    <td>{{$first_name}}</td>
+                    <td>{{$last_name}}</td>
+                    <td>{{$birth_date}}</td>
+                    <td>{{$expire_date}}</td>
+                    <td>{{$edit_member}}</td>
+                    <td>{{$delete_member}}</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </div>
