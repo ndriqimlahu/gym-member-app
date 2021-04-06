@@ -29,4 +29,12 @@ Route::get('/viewMember', function () {
     return view('gym-view-member');
 })->name('viewMember');
 
+Route::get('/editMember', function () {
+    return view('gym-edit-member');
+})->name('editMember');
+
+Route::post('/edit{id}', 'App\Http\Controllers\GymMemberController@showDataEditMember')->name('showDataEditMember');
+
+Route::post('/edit', 'App\Http\Controllers\GymMemberController@editGymMember')->name('editGymMember');
+
 Route::delete('/deleteMember/{id}', 'App\Http\Controllers\GymMemberController@deleteGymMember')->name('deleteGymMember');
