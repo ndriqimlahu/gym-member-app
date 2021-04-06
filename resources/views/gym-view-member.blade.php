@@ -20,7 +20,12 @@
                     @slot('birth_date',$gymMembers->getBirthDate())
                     @slot('expire_date',$gymMembers->getExpireDate())
                     @slot('edit_member')
-                        <button class="btn btn-success">EDIT</button>
+                        <form onsubmit="return confirm('Are your sure to edit this member?');"
+                            method="post" action="{{route('showDataEditMember',$gymMembers->getId())}}">
+                            @method('POST')
+                            @csrf
+                            <button class="btn btn-success">EDIT</button>
+                        </form>
                     @endslot
                     @slot('delete_member')
                         <form onsubmit="return confirm('Are your sure to delete this member?');"
@@ -32,6 +37,6 @@
                     @endslot
                 @endcomponent
             @endforeach
-            <br><br>
+        <br><br>
     </body>
 </html>
