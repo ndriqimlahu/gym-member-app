@@ -33,4 +33,22 @@ class GymMemberController extends Controller
 
         return redirect()->route('viewMember');
     }
+
+    public function showDataEditMember($id) {
+        $gym_members = GymMemberModel::find($id);
+
+        return view('gym-edit-member',['gym_members' => $gym_members]);
+    }
+
+    public function editGymMember(Request $request) {
+        $gym_members = GymMemberModel::find($request->id);
+        $gym_members->first_name = $request->first_name;
+        $gym_members->last_name = $request->last_name;
+        $gym_members->birth_date = $request->birth_date;
+        $gym_members->expire_date = $request->expire_date;
+        $gym_members->profile_picture = $request->profile_picture;
+        $gym_members->save();
+
+        return redirect()->route('viewMember');
+    }
 }
