@@ -29,7 +29,7 @@
                     @endslot
                     @slot('delete_member')
                         <form onsubmit="return confirm('Are your sure to delete this member?');"
-                        method="post" action="{{route('deleteGymMember',$gymMembers->getId())}}">
+                            method="post" action="{{route('deleteGymMember',$gymMembers->getId())}}">
                             @method('DELETE')
                             @csrf
                             <button class="btn btn-danger">DELETE</button>
