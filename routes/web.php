@@ -38,3 +38,9 @@ Route::post('/edit{id}', 'App\Http\Controllers\GymMemberController@showDataEditM
 Route::post('/edit', 'App\Http\Controllers\GymMemberController@editGymMember')->name('editGymMember');
 
 Route::delete('/deleteMember/{id}', 'App\Http\Controllers\GymMemberController@deleteGymMember')->name('deleteGymMember');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
