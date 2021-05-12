@@ -21,19 +21,19 @@ Route::get('/studenti', 'App\Http\Controllers\StudentiController@studenti');
 
 Route::get('/addMember', function () {
     return view('gym-add-member');
-})->name('addMember');
+})->middleware('auth')->name('addMember');
 
 Route::post('/addedMember','App\Http\Controllers\GymMemberController@storeGymMember')->name('addedMember');
 
 Route::get('/viewMember', function () {
     return view('gym-view-member');
-})->name('viewMember');
+})->middleware('auth')->name('viewMember');
 
 Route::get('/editMember', function () {
     return view('gym-edit-member');
-})->name('editMember');
+})->middleware('auth')->name('editMember');
 
-Route::post('/edit{id}', 'App\Http\Controllers\GymMemberController@showDataEditMember')->name('showDataEditMember');
+Route::post('/edit/{id}', 'App\Http\Controllers\GymMemberController@showDataEditMember')->name('showDataEditMember');
 
 Route::post('/edit', 'App\Http\Controllers\GymMemberController@editGymMember')->name('editGymMember');
 
