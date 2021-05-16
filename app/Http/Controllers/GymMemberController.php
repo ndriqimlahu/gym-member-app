@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendEmailToMemberWhenIsDeletedJob;
 use App\Models\GymMemberModel;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class GymMemberController extends Controller
 {
@@ -37,9 +39,13 @@ class GymMemberController extends Controller
         return redirect()->route('viewMember');
     }
 
-    public function deleteGymMember($id) {
+    public function deleteGymMember(Request $request, $id) {
         $gym_members = GymMemberModel::find($id);
         $gym_members->delete();
+
+        $send_email = $request->user();
+        $emailJob = (new SendEmailToMemberWhenIsDeletedJob($send_email))->delay(now()->addSeconds(3));
+        dispatch($emailJob);
 
         return redirect()->route('viewMember');
     }
