@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendEmailToMemberAfterIsRegisteredJob;
 use App\Jobs\SendEmailToMemberWhenIsDeletedJob;
 use App\Models\GymMemberModel;
 use Illuminate\Http\Request;
@@ -17,6 +18,10 @@ class GymMemberController extends Controller
         $gym_members->expire_date = $request->expire_date;
         $gym_members->profile_picture = $request->profile_picture;
         $gym_members->save();
+
+        $send_email = $request->user();
+        $emailJob = (new SendEmailToMemberAfterIsRegisteredJob($send_email))->delay(now()->addSeconds(2));
+        dispatch($emailJob);
 
         return redirect()->route('viewMember');
     }
