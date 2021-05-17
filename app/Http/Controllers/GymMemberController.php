@@ -20,7 +20,7 @@ class GymMemberController extends Controller
         $gym_members->save();
 
         $send_email = $request->user();
-        $emailJob = (new SendEmailToMemberAfterIsRegisteredJob($send_email))->delay(now()->addSeconds(2));
+        $emailJob = (new SendEmailToMemberAfterIsRegisteredJob($send_email))->delay(now()->addMinutes(2));
         dispatch($emailJob);
 
         return redirect()->route('viewMember');
