@@ -1,77 +1,142 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
+<!-- PROJECT LOGO -->
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/img/portfolio/GymMemberApp.png" alt="Logo" width="250" height="250">
+  <h3 align="center">Gym Member App</h3>
+  <p align="center">
+    Ndriçim Lahu
+    <br>
+    <br>
+    <a href="https://github.com/ndriqimlahu/GymMemberApp/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ndriqimlahu/GymMemberApp/issues">Request Feature</a>
+  </p>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#support">Support</a></li>
+  </ol>
+</details>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The project called `Gym Member App` is an web application which aims to enable and facilitate the life of Gym manager in order to manage members which can be of different categories and which can have a different membership. This web application is easy and simple to use, as all you need is to create a personal account, log in with the same account you created and then have the ability to create members, read members, update members, as well as deleting members, also at the very end you can log out of your account and all members will be automatically saved in your active account. In this web application you can navigate into different pages which are “Home”, “Login”, “Register”, “Dashboard”, “Reset Password”, “Password Confirm”, “Email Verification”, “Add Member”, “View Member” and “Edit Member”.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+This project started from scratch where I worked and completed, also I made some improvements in the front-end and back-end side of Web Development, such as creating of the login form, creating of the register form, creating of the dashboard, sending an email after registred, resetting the password for account, sending an email after reset password, creating the gym member, sending an email after created member, reading the gym member, updating the gym member, sending an email after updated member, deleting the gym member, sending an email after deleted member, configuration of mail with MailTrap and many more things.
 
-## Project Demo
 
-In this section will be included all the requried images as screenshots from "GymMemberApp" project as DEMO.
+### Built With
 
-01 - Laravel Home Page:
-![01-GymMemberApp - Laravel Home Page](https://user-images.githubusercontent.com/72756158/136917100-7dd41346-10f8-434d-ae02-2582b875cca2.png)
+This web application is based on technologies like below:
 
-02 - Register Page:
-![02-GymMemberApp - Register Page](https://user-images.githubusercontent.com/72756158/136917667-6f67ce96-895c-403d-a78d-d7a1af93f394.png)
+* HTML5
+* CSS3
+* Bootstrap
+* PHP
+* Laravel
+* MySQL
 
-03 - Login Page:
-![03-GymMemberApp - Login Page](https://user-images.githubusercontent.com/72756158/136917687-880ca959-5122-49a4-89d5-dcf9f24ec7e9.png)
 
-04 - Dashboard Page:
-![04-GymMemberApp - Dashboard Page](https://user-images.githubusercontent.com/72756158/136917731-a750fa15-68d8-48e1-a072-e199370da2b1.png)
+<!-- GETTING STARTED -->
+## Getting Started
 
-05 - Email sended after Registred:
-![05-GymMemberApp - Register by Email](https://user-images.githubusercontent.com/72756158/136917195-7bf4b54b-8447-4af7-afd3-01b08397efc5.png)
+By getting started with the project, first you need to take a look at the required `Prerequisites` and after that the `Installation` steps.
 
-06 - Reset Password:
-![06-GymMemberApp - Reset Password](https://user-images.githubusercontent.com/72756158/136917214-77fc5988-ccdc-4c4e-be8e-990ef4588f91.png)
 
-07 - Email sended after Reset Password:
-![07-GymMemberApp - Reset Password by Email](https://user-images.githubusercontent.com/72756158/136917222-540d3a2e-b819-4936-996f-3b27f4a45ed3.png)
+### Prerequisites
 
-08 - Add Member Page:
-![08-GymMemberApp - Add Member Page](https://user-images.githubusercontent.com/72756158/136917232-39c92bcd-6cd4-4cb4-b84f-3d6619174959.png)
+In order to open this web application is required to have an IDE or Code Editor (Visual Studio Code), an Web Server and Database Management Tool (XAMPP), an Dependency Manager for PHP (Composer), an NPM (Node.js) and an Browser (Google Chrome).
 
-09 - Email sended after Added Member:
-![09-GymMemberApp - Add Member by Email](https://user-images.githubusercontent.com/72756158/136917237-e7038806-22d9-4810-a1a3-20ad8f443f76.png)
 
-10 - View Member Page:
-![10-GymMemberApp - View Member Page](https://user-images.githubusercontent.com/72756158/136917250-3117fb18-8943-4990-9344-b653dfc896c7.png)
+### Installation
 
-11 - Edit Member Page from Edit button:
-![11-GymMemberApp - Edit Member Page](https://user-images.githubusercontent.com/72756158/136917257-558e2fb1-fc3f-4350-b3c0-dd1881eaaf08.png)
+1. Download the code or Clone the repo:
+   ```terminal
+   git clone https://github.com/ndriqimlahu/GymMemberApp.git
+   ```
+2. Open the XAMPP and start the `Apache` and `MySQL` modules.
+3. Then open the repo folder with IDE or Code Editor.
+4. Now make a copy of `.env.example` file and paste it to the project folder and rename it to `.env` file.
+5. After that open the Terminal and type the below command to install and update the all required libraries for project:
+   ```terminal
+   composer install
+   composer update
+   ```
+6. After that in the Terminal, type the below command to install and update the all required npm_modules for project:
+   ```terminal
+   npm install
+   npm update
+   ```
+7. After that in the Terminal, type the below command to generate a new key for application:
+   ```terminal
+   php artisan key:generate
+   ```
+8. After that in the Terminal, type the below command to clear the config cache and clear the application cache:
+   ```terminal
+   php artisan config:cache
+   php artisan optimize:clear
+   ```
+9. So now open the `MySQL` module and create a database with name `gym-member`.
+10. After that in the Terminal, type the below command to migrate the tables with pre-data to database:
+    ```terminal
+    php artisan migrate
+    php artisan db:seed
+    ```
+11. After that in the Terminal, type the below command to run the web server and application:
+    ```terminal
+    php artisan serve
+    ```
+12. Now launch the web application with Browser by typing the URL `http://127.0.0.1:8000/` and choose a specific file to open.
 
-12 - Updated View Member Page after Edit:
-![12-GymMemberApp - Updated View Member Page](https://user-images.githubusercontent.com/72756158/136917264-0366ead0-8c8c-4e80-ab63-0875216205e2.png)
 
-13 - Email sended after Edited Member:
-![13-GymMemberApp - Edit Member by Email](https://user-images.githubusercontent.com/72756158/136917269-572fe823-5a8f-472e-98d9-158b4c941287.png)
+<!-- USAGE -->
+## Usage
 
-14 - Deleted Member from Delete button:
-![14-GymMemberApp - Deleted View Member Page](https://user-images.githubusercontent.com/72756158/136917276-0d6d3bcf-c0dd-4c67-8f39-afbc4ae37dcf.png)
+There you can see some useful additional screenshots of how the project looks like and how can be used.
 
-15 - Email sended after Deleted Member:
-![15-GymMemberApp - Delete Member by Email](https://user-images.githubusercontent.com/72756158/136917292-5dc97a6f-fc47-4009-88d3-8acede31c57a.png)
+* Screenshots will be uploaded soon!
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
+<!-- LICENSE -->
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+**Facebook:** https://www.facebook.com/ndriqimi2001
+
+**LinkedIn:** https://www.linkedin.com/in/ndriçimlahu
+
+**Mail:** ndriqim_lahu@hotmail.com
+
+
+<!-- SUPPORT -->
+## Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
