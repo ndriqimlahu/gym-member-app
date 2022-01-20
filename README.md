@@ -76,7 +76,7 @@ In order to open this web application is required to have an IDE or Code Editor 
    git clone https://github.com/ndriqimlahu/GymMemberApp.git
    ```
 2. Open the XAMPP and start the `Apache` and `MySQL` modules.
-3. Then open the repo folder with IDE or Code Editor.
+3. Then open the repo folder with your IDE or Code Editor.
 4. Now make a copy of `.env.example` file and paste it to the project folder and rename it to `.env` file.
 5. After that open the Terminal and type the below command to install and update the all required libraries for project:
    ```terminal
