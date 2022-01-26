@@ -14,13 +14,13 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>{{$id}}</td>
-                    <td>{{$first_name}}</td>
-                    <td>{{$last_name}}</td>
-                    <td>{{$birth_date}}</td>
-                    <td>{{$expire_date}}</td>
-                    <td>{{$edit_member}}</td>
-                    <td>{{$delete_member}}</td>
+                    <td>{{ $id }}</td>
+                    <td>{{ $first_name }}</td>
+                    <td>{{ $last_name }}</td>
+                    <td>{{ $birth_date }}</td>
+                    <td>{{ $expire_date }}</td>
+                    <td>{{ $edit_member }}</td>
+                    <td>{{ $delete_member }}</td>
                 </tr>
             </tbody>
         </table>
