@@ -1,9 +1,8 @@
 <x-app-layout>
-    <title>GymAddMember</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('Add Member') }}
         </h2>
     </x-slot>
 
@@ -13,7 +12,7 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     <div class="text-center">
                         <br>
-                        <a class="btn btn-secondary btn-lg" href="{{ route('viewMember') }}">View Members</a>
+                        <a class="btn btn-secondary btn-lg" href="{{ route('viewMember') }}">View Member</a>
                     </div>
                     <br>
                     <form method="post" action="{{ route('addedMember') }}" enctype="multipart/form-data">

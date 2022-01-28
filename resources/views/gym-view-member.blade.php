@@ -1,9 +1,8 @@
 <x-app-layout>
-    <title>GymViewMember</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('View Member') }}
         </h2>
     </x-slot>
 
