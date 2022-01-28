@@ -53,6 +53,7 @@ This web application is based on technologies like below:
 * HTML5
 * CSS3
 * Bootstrap
+* JavaScript
 * PHP
 * Laravel
 * MySQL
@@ -115,50 +116,7 @@ In order to open this web application is required to have an IDE or Code Editor 
 
 There you can see some useful additional screenshots of how the project looks like and how can be used.
 
-* Home Page:
-![01-GymMemberApp - Laravel Home Page](https://user-images.githubusercontent.com/72756158/136917100-7dd41346-10f8-434d-ae02-2582b875cca2.png)
-
-* Register Page:
-![02-GymMemberApp - Register Page](https://user-images.githubusercontent.com/72756158/136917667-6f67ce96-895c-403d-a78d-d7a1af93f394.png)
-
-* Login Page:
-![03-GymMemberApp - Login Page](https://user-images.githubusercontent.com/72756158/136917687-880ca959-5122-49a4-89d5-dcf9f24ec7e9.png)
-
-* Dashboard Page:
-![04-GymMemberApp - Dashboard Page](https://user-images.githubusercontent.com/72756158/136917731-a750fa15-68d8-48e1-a072-e199370da2b1.png)
-
-* Email sended after Registred:
-![05-GymMemberApp - Register by Email](https://user-images.githubusercontent.com/72756158/136917195-7bf4b54b-8447-4af7-afd3-01b08397efc5.png)
-
-* Reset Password:
-![06-GymMemberApp - Reset Password](https://user-images.githubusercontent.com/72756158/136917214-77fc5988-ccdc-4c4e-be8e-990ef4588f91.png)
-
-* Email sended after Reset Password:
-![07-GymMemberApp - Reset Password by Email](https://user-images.githubusercontent.com/72756158/136917222-540d3a2e-b819-4936-996f-3b27f4a45ed3.png)
-
-* Add Member Page:
-![08-GymMemberApp - Add Member Page](https://user-images.githubusercontent.com/72756158/136917232-39c92bcd-6cd4-4cb4-b84f-3d6619174959.png)
-
-* Email sended after Added Member:
-![09-GymMemberApp - Add Member by Email](https://user-images.githubusercontent.com/72756158/136917237-e7038806-22d9-4810-a1a3-20ad8f443f76.png)
-
-* View Member Page:
-![10-GymMemberApp - View Member Page](https://user-images.githubusercontent.com/72756158/136917250-3117fb18-8943-4990-9344-b653dfc896c7.png)
-
-* Edit Member Page from Edit button:
-![11-GymMemberApp - Edit Member Page](https://user-images.githubusercontent.com/72756158/136917257-558e2fb1-fc3f-4350-b3c0-dd1881eaaf08.png)
-
-* Updated View Member Page after Edit:
-![12-GymMemberApp - Updated View Member Page](https://user-images.githubusercontent.com/72756158/136917264-0366ead0-8c8c-4e80-ab63-0875216205e2.png)
-
-* Email sended after Edited Member:
-![13-GymMemberApp - Edit Member by Email](https://user-images.githubusercontent.com/72756158/136917269-572fe823-5a8f-472e-98d9-158b4c941287.png)
-
-* Deleted Member from Delete button:
-![14-GymMemberApp - Deleted View Member Page](https://user-images.githubusercontent.com/72756158/136917276-0d6d3bcf-c0dd-4c67-8f39-afbc4ae37dcf.png)
-
-* Email sended after Deleted Member:
-![15-GymMemberApp - Delete Member by Email](https://user-images.githubusercontent.com/72756158/136917292-5dc97a6f-fc47-4009-88d3-8acede31c57a.png)
+* Screenshots will be uploaded soon!
 
 
 <!-- LICENSE -->
