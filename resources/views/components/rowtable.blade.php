@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row card border-secondary justify-content-center">
+    <div class="row card border-secondary justify-content-center mt-10 mb-10">
         <table class="table text-center">
             <thead>
                 <tr>
