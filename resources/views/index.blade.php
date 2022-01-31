@@ -26,7 +26,7 @@
         rel="stylesheet" type="text/css" />
 
     <!-- Core theme CSS (includes Bootstrap) -->
-    <link href="/css/welcome.css" rel="stylesheet" />
+    <link href="./css/home.css" rel="stylesheet" />
 </head>
 
 <body class="antialiased">
@@ -83,7 +83,7 @@
     <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS -->
-    <script src="/js/welcome.js"></script>
+    <script src="./js/home.js"></script>
 </body>
 
 </html>
