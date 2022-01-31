@@ -73,7 +73,11 @@
     <!-- Footer -->
     <footer class="bg-light py-5">
         <div class="container px-4 px-lg-5">
-            <div class="small text-center text-muted">Copyright &copy; Gym Member App 2022. All rights reserved.</div>
+            <div class="small text-center text-muted">
+                Copyright &copy; Gym Member App 2022. All rights reserved.
+                <br><br>
+                Powered by <a href="#">Ndriçim Lahu</a>
+            </div>
         </div>
     </footer>
     <!-- Bootstrap core JS -->
