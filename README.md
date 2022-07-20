@@ -1,14 +1,14 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/portfolio/GymMemberApp.png" alt="Logo" width="250" height="250">
+  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/GymMemberApp.png" alt="Logo" width="250" height="250">
   <h3 align="center">Gym Member App</h3>
   <p align="center">
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://github.com/ndriqimlahu/GymMemberApp/issues">Report Bug</a>
+    <a href="https://github.com/ndriqimlahu/gym-member-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ndriqimlahu/GymMemberApp/issues">Request Feature</a>
+    <a href="https://github.com/ndriqimlahu/gym-member-app/issues">Request Feature</a>
   </p>
 </p>
 
@@ -67,14 +67,14 @@ By getting started with the project, first you need to take a look at the requir
 
 ### Prerequisites
 
-In order to open this web application is required to have an IDE or Code Editor (Visual Studio Code), an Web Server and Database Management Tool (XAMPP), an Dependency Manager for PHP (Composer), an NPM (Node.js) and an Browser (Google Chrome).
+In order to open this web application is required to have an IDE or Code Editor (Visual Studio Code), an Web Server and Database Management Tool (XAMPP), an Dependency Manager for PHP (Composer), an Package Manager (NPM) and an Browser (Google Chrome).
 
 
 ### Installation
 
 1. Download the code or Clone the repo:
    ```terminal
-   git clone https://github.com/ndriqimlahu/GymMemberApp.git
+   git clone https://github.com/ndriqimlahu/gym-member-app.git
    ```
 2. Open the XAMPP and start the `Apache` and `MySQL` modules.
 3. Then open the repo folder with your IDE or Code Editor.
@@ -123,14 +123,6 @@ There you can see some useful additional screenshots of how the project looks li
 ## License
 
 Distributed under the Apache License 2.0. See `LICENSE` for more information.
-
-
-<!-- CONTACT -->
-## Contact
-
-**LinkedIn:** https://www.linkedin.com/in/ndriçimlahu
-
-**Mail:** ndriqim_lahu@hotmail.com
 
 
 <!-- SUPPORT -->
