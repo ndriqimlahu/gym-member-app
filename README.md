@@ -115,7 +115,104 @@ In order to open this web application is required to have an IDE or Code Editor 
 
 There you can see some useful additional screenshots of how the project looks like and how can be used.
 
-* Screenshots will be uploaded soon!
+* Home page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png">
+
+* Home page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/01.2-Home%20page%20(Responsive%20for%20Laptop).png">
+
+* Log In page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/02.1-Log%20In%20page%20(Responsive%20for%20Desktop).png">
+
+* Log In page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/02.2-Log%20In%20page%20(Responsive%20for%20Laptop).png">
+
+* Log In page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/02.3-Log%20In%20page%20(Responsive%20for%20Mobile).png">
+
+* Register page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/03.1-Register%20page%20(Responsive%20for%20Desktop).png">
+
+* Register page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/03.2-Register%20page%20(Responsive%20for%20Laptop).png">
+
+* Register page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/03.3-Register%20page%20(Responsive%20for%20Mobile).png">
+
+* Dashboard page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/04.1-Dashboard%20page%20(Responsive%20for%20Desktop).png">
+
+* Dashboard page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/04.2-Dashboard%20page%20(Responsive%20for%20Laptop).png">
+
+* Dashboard page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/04.3-Dashboard%20page%20(Responsive%20for%20Mobile).png">
+
+* Register Notification by Email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/05-Register%20Notification%20by%20Email.png">
+
+* Forgot Password page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/06.1-Forgot%20Password%20page%20(Responsive%20for%20Desktop).png">
+
+* Forgot Password page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/06.2-Forgot%20Password%20page%20(Responsive%20for%20Laptop).png">
+
+* Forgot Password page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/06.3-Forgot%20Password%20page%20(Responsive%20for%20Mobile).png">
+
+* Reset Password Notification by Email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/07-Reset%20Password%20Notification%20by%20Email.png">
+
+* Reset Password page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/08.1-Reset%20Password%20page%20(Responsive%20for%20Desktop).png">
+
+* Reset Password page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/08.2-Reset%20Password%20page%20(Responsive%20for%20Laptop).png">
+
+* Reset Password page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/08.3-Reset%20Password%20page%20(Responsive%20for%20Mobile).png">
+
+* Add Member page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/09.1-Add%20Member%20page%20(Responsive%20for%20Desktop).png">
+
+* Add Member page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/09.2-Add%20Member%20page%20(Responsive%20for%20Laptop).png">
+
+* Add Member page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/09.3-Add%20Member%20page%20(Responsive%20for%20Mobile).png">
+
+* Membership Created Notification by Email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/10-Membership%20Created%20Notification%20by%20Email.png">
+
+* View Member page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/11.1-View%20Member%20page%20(Responsive%20for%20Desktop).png">
+
+* View Member page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/11.2-View%20Member%20page%20(Responsive%20for%20Laptop).png">
+
+* View Member page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/11.3-View%20Member%20page%20(Responsive%20for%20Mobile).png">
+
+* Edit Member page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/12.1-Edit%20Member%20page%20(Responsive%20for%20Desktop).png">
+
+* Edit Member page (Responsive for Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/12.2-Edit%20Member%20page%20(Responsive%20for%20Laptop).png">
+
+* Edit Member page (Responsive for Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/12.3-Edit%20Member%20page%20(Responsive%20for%20Mobile).png">
+
+* Member Edited in View Member page
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/13-Member%20Edited%20in%20View%20Member%20page.png">
+
+* Membership Updated Notification by Email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/14-Membership%20Updated%20Notification%20by%20Email.png">
+
+* Member Deleted in View Member page
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/15-Member%20Deleted%20in%20View%20Member%20page.png">
+
+* Membership Cancelled Notification by Email
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/16-Membership%20Cancelled%20Notification%20by%20Email.png">
 
 
 <!-- COPYRIGHT -->
