@@ -31,7 +31,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#copyright">Copyright</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#support">Support</a></li>
   </ol>
 </details>
@@ -215,10 +215,10 @@ There you can see some useful additional screenshots of how the project looks li
 <img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/16-Membership%20Cancelled%20Notification%20by%20Email.png">
 
 
-<!-- COPYRIGHT -->
-## Copyright
+<!-- LICENSE -->
+## License
 
-See the `COPYRIGHT` file for more information.
+See the `LICENSE` file for more information.
 
 
 <!-- SUPPORT -->
