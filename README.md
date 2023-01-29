@@ -208,11 +208,14 @@ There you can see some useful additional screenshots of how the project looks li
 * Membership Updated Notification by Email
 <img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/14-Membership%20Updated%20Notification%20by%20Email.png">
 
+* View Member page (Multi Members)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/15-View%20Member%20page%20(Multi%20Members).png">
+
 * Member Deleted in View Member page
-<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/15-Member%20Deleted%20in%20View%20Member%20page.png">
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/16-Member%20Deleted%20in%20View%20Member%20page.png">
 
 * Membership Cancelled Notification by Email
-<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/16-Membership%20Cancelled%20Notification%20by%20Email.png">
+<img src="https://raw.githubusercontent.com/ndriqimlahu/gym-member-app/main/preview/17-Membership%20Cancelled%20Notification%20by%20Email.png">
 
 
 <!-- LICENSE -->
