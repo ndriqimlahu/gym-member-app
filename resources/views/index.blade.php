@@ -82,7 +82,7 @@
                     &copy; <strong>Gym Member App</strong>
                     <span id="copyright-year" onload="copyrightYear()"></span>. All Rights Reserved.
                     <br><br>
-                    Powered by <a href="https://ndriqimlahu.ml"><strong>Ndriçim Lahu</strong></a>
+                    Powered by <a href="https://ndriqimlahu.github.io"><strong>Ndriçim Lahu</strong></a>
                 </div>
             </div>
         </footer>
