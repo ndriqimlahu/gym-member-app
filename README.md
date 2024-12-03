@@ -54,9 +54,11 @@ Before starting, ensure the following are installed on your system:
 - **Node.js (Package Manager)**
   - Download the [Node.js](https://nodejs.org/en/download/package-manager).
   - Follow the [installation guide](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) to install and configure it properly.
-  - Verify your Node.js installation by running the following command in your terminal:
+  - Verify your Node and NPM installation by running the following commands one by one in your terminal:
     ```
     node -v
+
+    npm -v
     ```
   - If installation fails, refer to the Node.js troubleshooting guide.
 - **MySQL**
